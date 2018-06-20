@@ -19,6 +19,8 @@
 
 	<modules>
 		<module>spring-boot-netty</module>
+		<module>spring-boot-dubbo</module>
+		<module>spring-boot-quartz</module>
 	</modules>
 
 	<properties>
@@ -49,6 +51,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 
