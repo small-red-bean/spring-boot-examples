@@ -1,5 +1,6 @@
 package com.redbean.dubbo.consumer;
 
+import com.redbean.dubbo.service.DemoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

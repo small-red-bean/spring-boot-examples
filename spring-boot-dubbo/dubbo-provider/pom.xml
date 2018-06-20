@@ -16,4 +16,11 @@
 		<version>${version}</version>
 	</parent>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.redbean</groupId>
+			<artifactId>dubbo-service</artifactId>
+			<version>${version}</version>
+		</dependency>
+	</dependencies>
 </project>
