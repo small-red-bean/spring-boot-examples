@@ -18,5 +18,20 @@
 	<modules>
 		<module>dubbo-consumer</module>
 		<module>dubbo-provider</module>
+		<module>dubbo-service</module>
 	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring</artifactId>
+				</exclusion>
+			</exclusions>
+			<version>2.5.3</version>
+		</dependency>
+	</dependencies>
 </project>
