@@ -1,6 +1,6 @@
 package com.redbean.quartz.config;
 
-import com.redbean.quartzCluster.core.QuartzJobFactory;
+import com.redbean.quartz.core.QuartzJobFactory;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.springframework.beans.factory.annotation.Autowired;

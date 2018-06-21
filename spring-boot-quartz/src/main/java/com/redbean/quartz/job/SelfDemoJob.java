@@ -1,7 +1,7 @@
 package com.redbean.quartz.job;
 
 
-import com.redbean.quartzCluster.service.DemoService;
+import com.redbean.quartz.service.DemoService;
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;

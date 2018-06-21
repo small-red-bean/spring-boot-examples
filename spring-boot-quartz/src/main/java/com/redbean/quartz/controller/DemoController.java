@@ -1,9 +1,9 @@
 package com.redbean.quartz.controller;
 
 
-import com.redbean.quartzCluster.core.JobMetaData;
-import com.redbean.quartzCluster.core.QuartzService;
-import com.redbean.quartzCluster.job.SelfDemoJob;
+import com.redbean.quartz.core.JobMetaData;
+import com.redbean.quartz.core.QuartzService;
+import com.redbean.quartz.job.SelfDemoJob;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
