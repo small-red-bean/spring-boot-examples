@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.redbean.mybatis.mapper.UserMenuMapper">
+    <resultMap id="userMenu" type="com.redbean.mybatis.model.UserMenu">
+    </resultMap>
+
+    <select id="getUserMenu" resultMap="userMenu">
+        SELECT a.username AS username, c.menuname AS menuname FROM eauser a
+        LEFT JOIN user_menu b ON a.userid = b.userid
+        LEFT JOIN eamenu c ON b.menuid=c.menuid;
+    </select>
+</mapper>
